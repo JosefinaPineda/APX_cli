@@ -25,43 +25,43 @@ public class LetterCreditsDTO implements Serializable  {
 	 * Getters and setters
 	 */
 
-	public String getletter() {
+	public String getLetter() {
         return this.letter;
     }
 
-    public void setletter(final String letter) {
+    public void setLetter(final String letter) {
         this.letter = letter;
     }
 
-    public String getreference() {
+    public String getReference() {
         return this.reference;
     }
 
-    public void setreference(final String reference) {
+    public void setReference(final String reference) {
         this.reference = reference;
     }
 
-	public int getsequence() {
+	public int getSequence() {
         return this.sequence;
     }
 
-    public void setsequence(int sequence) {
+    public void setSequence(int sequence) {
         this.sequence = sequence;
     }
 
-	public List<Banks> getbanks() {
+	public List<Banks> getBanks() {
         return this.banks;
     }
 
-    public void setbanks(List<Banks> banks) {
+    public void setBanks(List<Banks> banks) {
         this.banks = banks;
     }
 
-	public Customer getcustomer() {
+	public Customer getCustomer() {
         return this.customer;
     }
 
-    public void setcustomer(Customer customer) {
+    public void setCustomer(Customer customer) {
         this.customer = customer;
     }
 

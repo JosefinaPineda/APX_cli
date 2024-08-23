@@ -24,35 +24,35 @@ public class CustomerDTO implements Serializable  {
 	 * Getters and setters
 	 */
 
-	public String getid() {
+	public String getId() {
         return this.id;
     }
 
-    public void setid(final String id) {
+    public void setId(final String id) {
         this.id = id;
     }
 
-    public String getname() {
+    public String getName() {
         return this.name;
     }
 
-    public void setname(final String name) {
+    public void setName(final String name) {
         this.name = name;
     }
 
-	public int getaddress() {
+	public int getAddress() {
         return this.address;
     }
 
-    public void setaddress(int address) {
+    public void setAddress(int address) {
         this.address = address;
     }
 
-    public List<Code> getcode() {
+    public List<Code> getCode() {
         return this.code;
     }
 
-    public void setcode(List<Code> code) {
+    public void setCode(List<Code> code) {
         this.code = code;
     }
 

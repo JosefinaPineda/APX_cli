@@ -21,11 +21,11 @@ public class CodeDTO implements Serializable  {
 	 * Getters and setters
 	 */
 
-	public String getid() {
+	public String getId() {
         return this.id;
     }
 
-    public void setid(final String id) {
+    public void setId(final String id) {
         this.id = id;
     }
 
